@@ -1,0 +1,63 @@
+body {
+  background-color: #fff0f5;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #880e4f;
+  text-align: center;
+  padding: 20px;
+  margin: 0;
+}
+
+h1 {
+  margin-bottom: 0.3em;
+  color: #ad1457;
+}
+
+h2 {
+  margin-top: 1.5em;
+  color: #c2185b;
+}
+
+.malla {
+  max-width: 1200px;
+  margin: auto;
+  padding: 10px;
+}
+
+.ramos-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill,minmax(180px,1fr));
+  gap: 12px;
+  justify-items: center;
+}
+
+.ramo {
+  background-color: #f8bbd0;
+  border: 2px solid #ec407a;
+  border-radius: 12px;
+  padding: 15px 10px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.25s ease, color 0.25s ease;
+  width: 170px;
+  user-select: none;
+}
+
+.ramo:hover:not(:disabled) {
+  background-color: #f48fb1;
+}
+
+.ramo:disabled {
+  background-color: #fce4ec;
+  color: #9e5d79;
+  border-color: #fce4ec;
+  cursor: not-allowed;
+  opacity: 0.7;
+}
+
+.ramo.aprobado {
+  background-color: #f06292;
+  color: white;
+  border-color: #c2185b;
+  cursor: default;
+  font-weight: 600;
+}
