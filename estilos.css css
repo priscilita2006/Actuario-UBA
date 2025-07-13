@@ -1,5 +1,7 @@
 body {
-  background-color: #fff0f5;
+body {
+  background-color: hotpink !important;
+}
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: #880e4f;
   text-align: center;
