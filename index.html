@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Malla Interactiva Actuario UBA</title>
+<link rel="stylesheet" href="estilos.css" />
+</head>
+<body>
+<h1>Malla Interactiva - Carrera de Actuario UBA</h1>
+<p>Haz click en un ramo para aprobarlo y desbloquear los siguientes.</p>
+
+<div class="malla">
+  <!-- CICLO FORMACIÓN GENERAL -->
+  <section>
+    <h2>Ciclo de Formación General</h2>
+    <div class="ramos-container">
+      <button class="ramo" id="241" data-requisitos="">Análisis Matemático I (241)</button>
+      <button class="ramo" id="242" data-requisitos="">Economía (242)</button>
+      <button class="ramo" id="245" data-requisitos="">Álgebra (245)</button>
+      <button class="ramo" id="246" data-requisitos="">Historia Económica y Social General (246)</button>
+      <button class="ramo" id="255" data-requisitos="">Análisis Contable (255)</button>
+      <button class="ramo" id="256" data-requisitos="">Instituciones de Gobierno y Economía Política (256)</button>
+    </div>
+  </section>
+
+  <!-- CICLO FORMACIÓN PROFESIONAL -->
+  <section>
+    <h2>Ciclo de Formación Profesional</h2>
+    <div class="ramos-container">
+      <button class="ramo" id="262"  data-requisitos="general">Macroeconomía I (262)</button>
+      <button class="ramo" id="274"  data-requisitos="general">Sistemas Administrativos (274)</button>
+      <button class="ramo" id="279"  data-requisitos="602">Administración Financiera (279)</button>
+      <button class="ramo" id="291"  data-requisitos="542">Microeconomía para Economistas (291)</button>
+      <button class="ramo" id="462"  data-requisitos="general">Derecho Empresarial (462)</button>
+      <button class="ramo" id="540"  data-requisitos="general">Análisis Estadístico I (540)</button>
+      <button class="ramo" id="542"  data-requisitos="general">Matemática Aplicada I (542)</button>
+      <button class="ramo" id="544"  data-requisitos="542">Matemática Aplicada II (544)</button>
+      <button class="ramo" id="548"  data-requisitos="279,602">Dinero y Bancos (548)</button>
+      <button class="ramo" id="601"  data-requisitos="540,542">Matemática Financiera y Actuarial (601)</button>
+      <button class="ramo" id="602"  data-requisitos="540,542">Análisis Estadístico II (602)</button>
+      <button class="ramo" id="603"  data-requisitos="462">Derecho Financiero, Seguros y Seguridad Social (603)</button>
+      <button class="ramo" id="717"  data-requisitos="746,757,758">Modelos y Proyecciones Actuariales (717)</button>
+      <button class="ramo" id="746"  data-requisitos="540,542">Computación Científica Actuarial (746)</button>
+      <button class="ramo" id="751"  data-requisitos="544,602">Estadística Actuarial (751)</button>
+      <button class="ramo" id="752"  data-requisitos="544">Análisis Numérico (752)</button>
+      <button class="ramo" id="753"  data-requisitos="601,751,752">Biometría Actuarial (753)</button>
+      <button class="ramo" id="754"  data-requisitos="753">Teoría Actuarial de los Seguros Personales (754)</button>
+      <button class="ramo" id="755"  data-requisitos="601,751,752">Teoría Actuarial de los Seguros Patrimoniales (755)</button>
+      <button class="ramo" id="756"  data-requisitos="754">Teoría Actuarial de los Fondos y Planes (756)</button>
+      <button class="ramo" id="757"  data-requisitos="754,755">Teoría de Equilibrio Actuarial (757)</button>
+      <button class="ramo" id="758"  data-requisitos="601,751">Bases Actuariales de las Inversiones y Financiaciones (758)</button>
+      <button class="ramo" id="728"  data-requisitos="754,755,756">Práctica Profesional del Actuario (728)</button>
+      <button class="ramo" id="electiva1" data-requisitos="">Electiva 1</button>
+      <button class="ramo" id="electiva2" data-requisitos="">Electiva 2</button>
+    </div>
+  </section>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
